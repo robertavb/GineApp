@@ -40,15 +40,18 @@
     background-image: url('../img/GineApp_-_Logotipo.svg');
     background-repeat: no-repeat;
     background-position: center;
-    height: 400px;
-    width: 400px;
+    width:180;
+    height:190;
     margin-bottom: 70px;
 }
 
-.fundoBranco{
-    background-color: #FFFFFF;
-    width: 100vw;  
-    height: flex;
+.iconeSaida{
+    background-image: url('../img/paginainicial/saida.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width:50;
+    height:50;
+    margin-bottom: 70px;
 }
 
 /* -------------------------------------- */
@@ -372,5 +375,5 @@
 
     .posicaoSaida{
         margin-top: -45px;
-        margin-left: 500px;
+       
     }
