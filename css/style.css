@@ -27,13 +27,14 @@
 .menuTopo{
     background-color: #2F1847;
     width: 100vw;
-    height: 100px;
+    height: 135px;
+    margin-bottom: 50px;
 }
 
 .menuAbaixo{
     background-color: #2F1847;
     width: 100vw;
-    height: 80px;
+    height: 95px;
 }
 
 .logoMenu{
@@ -42,7 +43,7 @@
     background-position: center;
     width:180;
     height:190;
-    margin-bottom: 70px;
+    margin-top: -50px;
 }
 
 .iconeSaida{
@@ -133,7 +134,7 @@
     justify-content: center;
     font-size: larger;
     color: #C62E65;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     width: 120px;
 }
 
@@ -144,7 +145,7 @@
     justify-content: center;
     font-size: larger;
     color: #2F1847;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     width: 120px;
 }
 
