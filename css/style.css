@@ -106,6 +106,31 @@
     padding-top: 20px;
 }
 
+.textoRosaInicial{
+    font-family: Ubuntu, 'Open Sans', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    color: #C62E65;
+    width: 120px;
+}
+
+.textoRoxoInicial{
+    font-family: Ubuntu, 'Open Sans', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    color: #2F1847;
+    margin-bottom: 10px;
+    width: 120px;
+}
+
+.icone{
+    align-items: center;
+}
+
 ::placeholder{
     color: #FFFFFF;
     font-family: Ubuntu, 'Open Sans', sans-serif;
@@ -316,4 +341,14 @@
         width: 300px;
         margin-top: 70px;
         margin-bottom: 10px;
+    }
+
+    .posicao{
+        margin-right: 50;
+        margin-left: 50px;
+        align-items: center;
+    }
+
+    .posicaoLogoMenu{
+        margin-top: -50px;
     }
