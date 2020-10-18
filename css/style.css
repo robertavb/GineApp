@@ -372,10 +372,10 @@
     .posicaoLogoMenu{
         margin-top: -30px;
         flex-direction: row;
-        margin-left: 5px;
+        margin-left: -10px;
     }
 
     .posicaoSaida{
         margin-top: -80px;
-       margin-left: 500px;
+       margin-left: 250px;
     }
