@@ -14,8 +14,8 @@
     background-position: center;
     height: 300px;
     width: 350px;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 /* -------------------------------------- */
@@ -39,7 +39,6 @@
     justify-content: center;
     font-size: larger;
     color: #C62E65;
-    margin-bottom: 10px;
 }
 
 .textoRoxo{
@@ -74,21 +73,34 @@
 
 ::placeholder{
     color: #FFFFFF;
-    text-decoration: underline;
     font-family: Ubuntu, 'Open Sans', sans-serif;
+    border: none;
 }
 
 #formulario input.login{
     background-color: #2F1847;
     border: none;
     text-align: center;
+    flex-direction: column;
+    color: #FFFFFF;
 }
 
 #formulario input.senha{
     background-color: #2F1847;
     border: none;
     text-align: center;
+    flex-direction: column;
+    color: #FFFFFF;
+    margin-top: 45px;
 }
+
+.linha{
+    background-color: #C62E65;
+    width: 200px;
+    height: 2px;
+    align-items: center;
+}
+
 
 /* -------------------------------------- */
 
@@ -109,6 +121,8 @@
     border-radius: 100px;
     text-align: center;
     font-weight: lighter;
+    margin-bottom: 60px;
+    margin-top: 30px;
 }
 
 .botaoCadastro {
@@ -122,6 +136,7 @@
     border-width: 2px;
     text-align: center;
     font-weight: lighter;
+    margin-top: -10px;
 }
 
 .botoes .icones {
@@ -137,17 +152,18 @@
 }
 
 .manual {
-    width: 400px;
+    width: 200px;
+    height: 50px;
 }
 
 .botaoCadastro:hover {
     cursor: pointer;
-    background-color: rgb(12, 37, 62);
+    background-color:  #26123b;
 }
 
 .botaoEntrar:hover {
     cursor: pointer;
-    background-color: rgb(218, 98, 0);
+    background-color:#298385;
 }
 
 /* ---------------------------------- */
@@ -155,7 +171,7 @@
 @media (min-width: 768px) {
 
     .manual {
-        width: 400px;
+        width: 150px;
     }
 
     .botoes .icones {
@@ -177,13 +193,41 @@
 
 }
 
-    @media (min-width: 1024px) {
-
+    @media (min-width: 1080px) {
 
         .seção {
             flex-direction: column;
         }
+
+        .textoRosa{
+            margin-bottom: -10px;
+        }
+
+        .textoRoxo{
+            margin-bottom: -10px;
+        }
         
+        .textoAzul{
+            margin-bottom: -10px;
+        }
+        
+        .textoBranco{
+            margin-bottom: -10px;
+        }
+
+        .botaoEntrar {
+            margin-bottom: 60px;
+            margin-top: 30px;
+        }
+        
+        .botaoCadastro {
+            margin-top: -10px;
+        }
     }
+
+    
+    
+    
+        
 
     /* --------------------------------- */
