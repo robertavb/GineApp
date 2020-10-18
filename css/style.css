@@ -27,7 +27,7 @@
 .menuAbaixo{
     background-color: #2F1847;
     width: 100vw;
-    height: 100px;
+    height: 80px;
 }
 
 .logoMenu{
@@ -351,4 +351,5 @@
 
     .posicaoLogoMenu{
         margin-top: -50px;
+        flex-direction: row;
     }
