@@ -120,11 +120,11 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    font-size: larger;
+    font-size: 40px;
     color: #FFFFFF;
-    margin-top: -110px;
+    margin-top: -120px;
     z-index: 100;
-    margin-left: -270px;
+    margin-right: 270px;
 }
 
 .textoRosaInicial{
@@ -372,10 +372,10 @@
     .posicaoLogoMenu{
         margin-top: -30px;
         flex-direction: row;
-        margin-left: -300px;
+        margin-left: 5px;
     }
 
     .posicaoSaida{
-        margin-top: -35px;
+        margin-top: -5px;
        
     }
