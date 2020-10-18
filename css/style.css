@@ -27,16 +27,15 @@
 .menuAbaixo{
     background-color: #2F1847;
     width: 100vw;
-    height: 70px;
+    height: 100px;
 }
 
 .logoMenu{
     background-image: url('../img/GineApp_-_Logotipo.svg');
     background-repeat: no-repeat;
     background-position: center;
-    height: 40px;
+    height: 400px;
     width: 400px;
-    margin-top: 70px;
     margin-bottom: 70px;
 }
 
@@ -54,6 +53,13 @@
 .seção {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seçãoRow{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -276,38 +282,38 @@
         background-image: url('../img/paginainicial/exame.png');
         background-repeat: no-repeat;
         background-position: center;
-        height: 40px;
-        width: 400px;
-        margin-top: 70px;
-        margin-bottom: 70px;
+        height: 300px;
+        width: 300px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
-    .calendario{
-        background-image: url('../img/paginainicial/exame.png');
+    .relatos{
+        background-image: url('../img/paginainicial/medico.png');
         background-repeat: no-repeat;
         background-position: center;
-        height: 40px;
-        width: 400px;
-        margin-top: 70px;
-        margin-bottom: 70px;
+        height: 300px;
+        width: 300px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .chat{
-        background-image: url('../img/paginainicial/chat.png');
+        background-image: url('../img/paginainicial/batepapo.png');
         background-repeat: no-repeat;
         background-position: center;
-        height: 40px;
-        width: 400px;
+        height: 300px;
+        width: 300px;
         margin-top: 70px;
-        margin-bottom: 70px;
+        margin-bottom: 10px;
     }
 
     .artigos{
-        background-image: url('../img/paginainicial/artigos.png');
+        background-image: url('../img/paginainicial/jornalzinho.png');
         background-repeat: no-repeat;
         background-position: center;
-        height: 40px;
-        width: 400px;
+        height: 300px;
+        width: 300px;
         margin-top: 70px;
-        margin-bottom: 70px;
+        margin-bottom: 10px;
     }
