@@ -4,6 +4,12 @@
     height: flex;
 }
 
+.fundoBranco {
+    background-color: #FFFFFF;
+    width: 100vw;  
+    height: flex;
+}
+
 .final {
     height: 100px;
 }
