@@ -1,4 +1,4 @@
-.fundo {
+.fundoRoxo {
     background-color: #2F1847;
     width: 100vw;  
     height: flex;
@@ -16,6 +16,34 @@
     width: 350px;
     margin-top: 70px;
     margin-bottom: 70px;
+}
+
+.menuTopo{
+    background-color: #2F1847;
+    width: 100vw;
+    height: 100px;
+}
+
+.menuAbaixo{
+    background-color: #2F1847;
+    width: 100vw;
+    height: 70px;
+}
+
+.logoMenu{
+    background-image: url('../img/GineApp_-_Logotipo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    width: 400px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.fundoBranco{
+    background-color: #FFFFFF;
+    width: 100vw;  
+    height: flex;
 }
 
 /* -------------------------------------- */
@@ -69,6 +97,7 @@
     font-size: larger;
     color: #FFFFFF;
     margin-bottom: 10px;
+    padding-top: 20px;
 }
 
 ::placeholder{
@@ -123,6 +152,17 @@
     font-weight: lighter;
     margin-bottom: 60px;
     margin-top: 30px;
+}
+
+.botaoPedirAjuda{
+    background-color: #2F1847;
+    color: #FFFFFF;
+    font-family: Ubuntu, 'Open Sans', sans-serif;
+    border: none;
+    border-width: 2px;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: -10px;
 }
 
 .botaoCadastro {
@@ -230,4 +270,44 @@
     
         
 
-    /* --------------------------------- */
+    /* ----------pagina inicial------------ */
+
+    .calendario{
+        background-image: url('../img/paginainicial/exame.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 40px;
+        width: 400px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    .calendario{
+        background-image: url('../img/paginainicial/exame.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 40px;
+        width: 400px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    .chat{
+        background-image: url('../img/paginainicial/chat.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 40px;
+        width: 400px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    .artigos{
+        background-image: url('../img/paginainicial/artigos.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 40px;
+        width: 400px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
